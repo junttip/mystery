@@ -1,0 +1,32 @@
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background-color: white;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+p.myst1, a:link.myst1, a:visited.myst1, a:hover.myst1, a:active.myst1 {
+  color:white;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
