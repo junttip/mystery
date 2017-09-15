@@ -1,8 +1,28 @@
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Mystery Quest', cursive;
   margin: 25px;
-  background-color: white;
+  background-color: black;
+}
+
+#index {
+ background: url("https://cdn.glitch.com/e32abc4c-392b-4f10-851b-8305f58a9870%2Fmyst4.png?1505380688949") no-repeat fixed center;
+  background-size: contain;
+}
+
+#mystery1{
+  background: url("https://cdn.glitch.com/e32abc4c-392b-4f10-851b-8305f58a9870%2Ftalo2.jpg?1505381043999") no-repeat fixed center;
+  background-size: contain;
+}
+
+#mystery2{
+  background: url("https://cdn.glitch.com/e32abc4c-392b-4f10-851b-8305f58a9870%2Ft%C3%B6n%C3%A4.jpg?1505380835990") no-repeat fixed center;
+  background-size: contain;
+}
+
+#mystery3{
+  background: url("https://cdn.glitch.com/e32abc4c-392b-4f10-851b-8305f58a9870%2Fdrinkit.png?1505380635544") no-repeat fixed center;
+  background-size: contain;
 }
 
 h1 {
@@ -21,6 +41,11 @@ li {
   margin-bottom: 5px;
 }
 
+.box{
+  background-color:white;
+  background-opacity:0.2;
+}
+
 footer {
   margin-top: 50px;
   padding-top: 25px;
@@ -29,4 +54,46 @@ footer {
 
 footer > a {
   color: #BBBBBB;
+}
+
+#startbutton{
+background:    #A32D2D;
+background:    -webkit-linear-gradient(#3d85c6, #073763);
+background:    linear-gradient(#3d85c6, #073763);
+border-radius: 14px;
+padding:       8px 20px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal 700 33px/1 "Pagella", serif;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+}
+
+#welcome {
+  width: 200px; 
+  position:absolute; /*it can be fixed too*/
+  left:0; right:0;
+  top:40%; bottom:0;
+  margin:auto;
+}
+
+.centering {
+   width: 40%; 
+  height: 40%;
+  position:absolute; /*it can be fixed too*/
+  left:0; right:0;
+  top:10%; bottom:0;
+  margin:auto;
+}
+
+#myst1center{
+  background-color: white;
+}
+
+#myst2center{
+  background-color: white;
+}
+
+#myst3center{
+  background-color: white;
 }
