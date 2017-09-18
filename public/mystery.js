@@ -2,7 +2,7 @@
  * Created by leppalaan on 17.7.2017.
  */
 
-var mysteeriX = 9;
+var mysteeriX = 1;
 var i = 0;
 
 function napinTehtava () {

@@ -78,6 +78,7 @@ text-shadow:   1px 1px #000000;
 }
 
 .centering {
+  padding: 20px;
    width: 40%; 
   height: 40%;
   position:absolute; /*it can be fixed too*/
@@ -90,10 +91,10 @@ text-shadow:   1px 1px #000000;
   background-color: white;
 }
 
-#myst2center{
+#myst3center{
   background-color: white;
 }
 
-#myst3center{
-  background-color: white;
+.hidden{
+    visibility: hidden;
 }
