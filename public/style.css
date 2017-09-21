@@ -1,6 +1,5 @@
 
 body {
-  font-family: 'Mystery Quest', cursive;
   margin: 25px;
   background-color: black;
 }
@@ -25,12 +24,14 @@ body {
   background-size: contain;
 }
 
-h1 {
+h1, h2 {
   font-weight: bold;
+    font-family: 'Mystery Quest', cursive;
 }
 
 p {
   max-width: 600px;
+  font-family: 'Arial';
 }
 
 p.myst1, a:link.myst1, a:visited.myst1, a:hover.myst1, a:active.myst1 {
@@ -58,16 +59,17 @@ footer > a {
 
 #startbutton{
 background:    #A32D2D;
-background:    -webkit-linear-gradient(#3d85c6, #073763);
-background:    linear-gradient(#3d85c6, #073763);
+background:    -webkit-linear-gradient(#A5ACB0, #991F3D);
+background:    linear-gradient(#A5ACB0 , #0991F3D);
 border-radius: 14px;
 padding:       8px 20px;
 color:         #ffffff;
 display:       inline-block;
-font:          normal 700 33px/1 "Pagella", serif;
+font:          normal 500 25px/1 'Mystery Quest', serif;
 text-align:    center;
 text-shadow:   1px 1px #000000;
-}
+margin-top:        50px;
+}  
 
 #welcome {
   width: 200px; 
@@ -75,15 +77,15 @@ text-shadow:   1px 1px #000000;
   left:0; right:0;
   top:40%; bottom:0;
   margin:auto;
+  text-align:   center;
 }
 
 .centering {
   padding: 20px;
-   width: 40%; 
-  height: 40%;
+  width: 40%; 
   position:absolute; /*it can be fixed too*/
   left:0; right:0;
-  top:10%; bottom:0;
+  top:30%; 
   margin:auto;
 }
 
@@ -97,4 +99,17 @@ text-shadow:   1px 1px #000000;
 
 .hidden{
     visibility: hidden;
+}
+#myst2center{
+  background-color: white;
+  opacity: 0.8;
+}
+
+#myst1center{
+  opacity: 0.8;
+}
+
+#dontclickthisbutton{
+  text-align:center;
+  display:none;
 }
