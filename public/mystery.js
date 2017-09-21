@@ -3,7 +3,7 @@
  */
 
 /*Kokeile muuttaa mysteeriX numeroa ja katso muuttuuko buttonin toiminto*/
-var mysteeriX = 1;
+var mysteeriX = 10;
 var i = 0;
 
 function napinTehtava () {

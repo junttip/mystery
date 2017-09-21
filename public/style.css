@@ -98,7 +98,7 @@ margin-top:        50px;
 }
 
 .hidden{
-    visibility: hidden;
+    display:none;
 }
 #myst2center{
   background-color: white;
@@ -112,4 +112,9 @@ margin-top:        50px;
 #dontclickthisbutton{
   text-align:center;
   display:none;
+}
+
+.kirjain{
+  font-size: 15px;
+  font-weight: bold;
 }
