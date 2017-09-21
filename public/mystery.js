@@ -2,7 +2,8 @@
  * Created by leppalaan on 17.7.2017.
  */
 
-var mysteeriX = 1;
+/*Kokeile muuttaa mysteeriX numeroa ja katso muuttuuko buttonin toiminto*/
+var mysteeriX = 14;
 var i = 0;
 
 function napinTehtava () {
